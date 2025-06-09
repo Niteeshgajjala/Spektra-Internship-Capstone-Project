@@ -1,0 +1,85 @@
+/* Sidebar Styling */
+.sidebar {
+  width: 240px;
+  background-color: #002b5b;
+  color: white;
+  padding-top: 2rem;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+  padding: 0 1rem;
+}
+
+.app-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #e0e0e0;
+  font-weight: 500;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0 20px 20px 0;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active,
+.nav-link.router-link-active {
+  background-color: #014f86;
+  color: white;
+}
+
+.nav-link i {
+  font-size: 1rem;
+}
+
+/* Navbar Styling */
+.custom-navbar {
+  background-color: #014f86; /* NAVBAR COLOR ADDED */
+  border-bottom: none;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-text {
+  font-size: 1.1rem;
+}
+
+/* Dropdown Styling */
+.dropdown-menu {
+  min-width: 160px;
+}
+
+.dropdown-item {
+  font-weight: 500;
+}
+
+/* Main Content Area */
+.main-content {
+  background-color: #f8f9fa;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .main-content {
+    padding: 1rem;
+  }
+}
+
+
+.app-title {
+  font-size: 1.1rem;   /* smaller size */
+  font-weight: 600;     /* semi-bold */
+  white-space: nowrap;  /* keep in one line */
+  margin: 0;
+}

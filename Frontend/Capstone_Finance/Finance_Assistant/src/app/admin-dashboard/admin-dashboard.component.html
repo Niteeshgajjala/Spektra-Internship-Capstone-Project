@@ -1,0 +1,48 @@
+<div class="admin-dashboard" [class.dark-theme]="isDarkTheme">
+  <!-- Top Navbar -->
+  <nav class="top-navbar navbar navbar-dark bg-primary-dark px-3 py-2 d-flex justify-content-between align-items-center">
+    <button class="btn btn-sm text-white d-md-none" (click)="toggleSidebar()">
+      <i class="bi bi-list fs-4"></i>
+    </button>
+    <span class="navbar-brand mb-0 h5 text-white">Admin Dashboard</span>
+    <div class="d-flex align-items-center gap-3">
+      <button class="btn btn-sm btn-outline-light" (click)="toggleTheme()">
+        <i class="bi" [ngClass]="isDarkTheme ? 'bi-sun-fill' : 'bi-moon-fill'"></i>
+      </button>
+      <span class="text-white fw-semibold d-none d-md-inline">Welcome, {{ adminName }}</span>
+    </div>
+  </nav>
+
+  <!-- Main Layout -->
+  <div class="d-flex">
+    <!-- Sidebar -->
+    <nav class="sidebar bg-primary-dark text-white p-3" [class.collapsed]="sidebarCollapsed">
+ 
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2">
+          <a routerLink="categories" class="nav-link text-white d-flex align-items-center">
+            <i class="bi bi-folder-fill me-2"></i> <span class="d-none d-md-inline">Manage Categories</span>
+          </a>
+        </li>
+        <li class="nav-item mb-2">
+          <a routerLink="manage-users" class="nav-link text-white d-flex align-items-center">
+            <i class="bi bi-person-fill me-2"></i> <span class="d-none d-md-inline">Manage Users</span>
+          </a>
+        </li>
+        <li class="nav-item mb-2">
+          <a routerLink="admin-reports" class="nav-link text-white d-flex align-items-center">
+            <i class="bi bi-bar-chart-fill me-2"></i> <span class="d-none d-md-inline">Reports</span>
+          </a>
+        </li>
+      </ul>
+      <div class="text-center mt-4">
+        <button class="btn btn-outline-light w-100" (click)="logout()">Logout</button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content p-4 flex-grow-1">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

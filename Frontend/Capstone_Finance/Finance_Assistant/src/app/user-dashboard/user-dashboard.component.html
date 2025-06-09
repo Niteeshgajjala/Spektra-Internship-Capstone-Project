@@ -1,0 +1,84 @@
+<div class="d-flex vh-100 bg-light">
+  <!-- Sidebar -->
+  <nav class="sidebar bg-dark text-white p-3">
+    <div class="sidebar-header text-center mb-4">
+      <h6 class="app-title text-nowrap">💼 Finance Assistant</h6>
+    </div>
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a routerLink="expenses" routerLinkActive="active" class="nav-link text-white d-flex align-items-center">
+          <i class="bi bi-receipt me-2"></i> Track Expenses
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="budget-pool" routerLinkActive="active" class="nav-link text-white d-flex align-items-center">
+          <i class="bi bi-wallet2 me-2"></i> Budget Pool
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="set-budgets" routerLinkActive="active" class="nav-link text-white d-flex align-items-center">
+          <i class="bi bi-gear me-2"></i> Set Budgets
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="contributions" routerLinkActive="active" class="nav-link text-white d-flex align-items-center">
+          <i class="bi bi-cash-coin me-2"></i> Contributions
+        </a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="user-reports" routerLinkActive="active" class="nav-link text-white d-flex align-items-center">
+          <i class="bi bi-bar-chart-line me-2"></i> Reports
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="flex-grow-1 d-flex flex-column">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg custom-navbar bg-primary text-white">
+      <div class="container-fluid d-flex justify-content-between align-items-center px-4">
+        <span class="navbar-text fw-bold text-white">👋 Welcome, {{ userName }}</span>
+        <div class="dropdown">
+          <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+            {{ userName }}
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end shadow">
+            <li><a class="dropdown-item text-danger fw-semibold" href="#" (click)="logout()">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Router Content OR Welcome Panel -->
+    <div class="main-content p-4">
+      <ng-container *ngIf="!activatedRoute?.firstChild?.component">
+        <div class="container py-5">
+          <div class="text-center mb-5">
+            <h2 class="fw-bold text-primary">👋 Welcome to Finance Assistant</h2>
+            <p class="text-muted fs-5">Manage your expenses, budgets, and contributions all in one place.</p>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-md-10">
+              <div class="alert alert-info shadow-sm text-center">
+                <h5 class="mb-2">🔐 Secure. 💸 Budget-wise. 💡 Insightful.</h5>
+                <p class="mb-0">
+                  Use the sidebar to navigate between expense tracking, budget planning, and more.
+                </p>
+              </div>
+
+              <div class="text-center mt-4">
+                <img src="https://cdn-icons-png.flaticon.com/512/4371/4371387.png" alt="Finance" width="160" class="mb-3" />
+                <p class="text-muted">Stay organized and financially smart. Let’s go 🚀</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+
+      <!-- Routed Views -->
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

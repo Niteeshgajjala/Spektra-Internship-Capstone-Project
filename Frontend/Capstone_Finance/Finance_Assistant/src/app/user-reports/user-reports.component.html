@@ -1,0 +1,51 @@
+<div class="container mt-5">
+  <h2 class="text-center text-primary mb-4">📊 Your Financial Reports</h2>
+
+  <!-- Row 1: Category-wise Spending + Monthly Expenses -->
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <div class="card p-3 shadow">
+        <h5 class="text-center text-secondary">Category-wise Spending (Pie)</h5>
+        <canvas baseChart
+                [data]="categoryPieData"
+                [type]="'pie'"
+                [options]="chartOptions">
+        </canvas>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 shadow">
+        <h5 class="text-center text-secondary">Monthly Expenses (Bar)</h5>
+        <canvas baseChart
+                [data]="monthlyBarData"
+                [type]="'bar'"
+                [options]="chartOptions">
+        </canvas>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 2: Budget vs Spend + Contributions -->
+  <div class="row mb-5">
+    <div class="col-md-6">
+      <div class="card p-3 shadow">
+        <h5 class="text-center text-secondary">Budget vs Spend (Doughnut)</h5>
+        <canvas baseChart
+                [data]="budgetDonutData"
+                [type]="'doughnut'"
+                [options]="chartOptions">
+        </canvas>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card p-3 shadow">
+        <h5 class="text-center text-secondary">Contributions to Budget Pools (Bar)</h5>
+        <canvas baseChart
+                [data]="contributionsBarData"
+                [type]="'bar'"
+                [options]="chartOptions">
+        </canvas>
+      </div>
+    </div>
+  </div>
+</div>

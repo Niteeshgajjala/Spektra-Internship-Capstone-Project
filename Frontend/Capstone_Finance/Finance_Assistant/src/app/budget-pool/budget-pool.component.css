@@ -1,0 +1,96 @@
+/* Container */
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+h3 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* Refresh Button */
+.btn-outline-primary {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+/* Form Section */
+form {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.form-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Input Fields */
+input.form-control {
+  border-radius: 8px;
+  font-size: 0.95rem;
+  padding: 0.6rem 0.8rem;
+}
+
+button.btn-success {
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+button.btn-success:hover {
+  background-color: #157347;
+}
+
+/* Table Styling */
+.table-responsive {
+  margin-top: 1rem;
+}
+
+table.table {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #e9ecef;
+  font-weight: 600;
+}
+
+table td {
+  vertical-align: middle;
+}
+
+/* Action Buttons */
+.btn-outline-primary.btn-sm {
+  padding: 0.35rem 0.75rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+}
+
+/* Balance Info Box */
+.alert-info {
+  background-color: #e8f7ff;
+  border: 1px solid #b6effb;
+  color: #065b78;
+  border-radius: 10px;
+}
+
+.alert-info h5 {
+  font-weight: 700;
+}
+
+.alert-info ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+
+.alert-info li {
+  margin-bottom: 0.25rem;
+  font-size: 0.95rem;
+}

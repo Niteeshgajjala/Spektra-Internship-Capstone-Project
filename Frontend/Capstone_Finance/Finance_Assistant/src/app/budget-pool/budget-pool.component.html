@@ -1,0 +1,72 @@
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="text-primary fw-bold">Budget Pools</h3>
+    <button class="btn btn-outline-primary" (click)="loadBudgetPools()">
+      <i class="bi bi-arrow-clockwise"></i> Refresh
+    </button>
+  </div>
+
+  <!-- Create Budget Pool Form -->
+  <form (ngSubmit)="createPool()" #poolForm="ngForm" class="bg-light p-4 rounded shadow-sm mb-5">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-4">
+        <label class="form-label fw-semibold">Name</label>
+        <input type="text" class="form-control" [(ngModel)]="newPool.name" name="name" required />
+      </div>
+      <div class="col-md-4">
+        <label class="form-label fw-semibold">Description</label>
+        <input type="text" class="form-control" [(ngModel)]="newPool.description" name="description" />
+      </div>
+      <div class="col-md-3">
+        <label class="form-label fw-semibold">Total Amount</label>
+        <input type="number" class="form-control" [(ngModel)]="newPool.totalAmount" name="totalAmount" required />
+      </div>
+      <div class="col-md-1">
+        <button type="submit" class="btn btn-success w-100">Add</button>
+      </div>
+    </div>
+  </form>
+
+  <!-- Budget Pools Table -->
+  <div *ngIf="budgetPools.length === 0" class="alert alert-warning text-center shadow-sm">
+    <i class="bi bi-exclamation-circle me-2"></i> No budget pools found.
+  </div>
+
+  <div *ngIf="budgetPools.length > 0" class="table-responsive shadow-sm mb-4">
+    <table class="table table-striped align-middle">
+      <thead class="table-light">
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th>Total Amount</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pool of budgetPools; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ pool.name }}</td>
+          <td>{{ pool.description }}</td>
+          <td>₹{{ pool.totalAmount | number:'1.0-0' }}</td>
+          <td>
+            <button class="btn btn-outline-primary btn-sm" (click)="viewBalance(pool.poolId)">
+              View Balance
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Pool Balance Display -->
+  <div *ngIf="poolBalance" class="alert alert-info shadow-sm">
+    <h5 class="mb-2">Balance Details for Pool ID {{ selectedPoolId }}</h5>
+    <ul class="mb-0">
+      <li><strong>Total Amount:</strong> ₹{{ poolBalance.totalAmount | number:'1.0-0' }}</li>
+      <li><strong>Total Contributions:</strong> ₹{{ poolBalance.totalContributions | number:'1.0-0' }}</li>
+      <li><strong>Total Expenses:</strong> ₹{{ poolBalance.totalExpenses | number:'1.0-0' }}</li>
+      <li><strong>Current Balance:</strong> ₹{{ poolBalance.currentBalance | number:'1.0-0' }}</li>
+    </ul>
+  </div>
+</div>

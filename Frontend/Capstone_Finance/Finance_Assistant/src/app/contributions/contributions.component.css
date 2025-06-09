@@ -1,0 +1,83 @@
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Section Header */
+h4 {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* Form Container */
+form {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+input.form-control {
+  border-radius: 8px;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Submit Button */
+button.btn-success {
+  font-weight: 600;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+button.btn-success:hover {
+  background-color: #157347;
+}
+
+/* Alert Box */
+.alert-warning {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+/* Table Styling */
+table.table {
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+table thead {
+  background-color: #e9ecef;
+  font-weight: 600;
+}
+
+table th,
+table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  table {
+    font-size: 0.85rem;
+  }
+
+  .row.g-3 > .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,42 @@
+<div class="container mt-5">
+  <h3 class="mb-4">{{ isEditing ? 'Edit Category' : 'Add Category' }}</h3>
+  <form [formGroup]="categoryForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label class="form-label">Category Name</label>
+      <input formControlName="categoryName" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Description</label>
+      <textarea formControlName="description" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-success me-2">{{ isEditing ? 'Update' : 'Add' }}</button>
+    <button type="button" class="btn btn-secondary" (click)="resetForm()">Clear</button>
+  </form>
+
+  <hr class="my-5" />
+
+  <h4>All Categories</h4>
+  <table class="table table-bordered table-striped mt-3" *ngIf="categories.length > 0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cat of categories">
+        <td>{{ cat.categoryId }}</td>
+        <td>{{ cat.categoryName }}</td>
+        <td>{{ cat.description }}</td>
+        <td>
+          <button class="btn btn-sm btn-primary me-2" (click)="editCategory(cat)">Edit</button>
+          <button class="btn btn-sm btn-danger" (click)="deleteCategory(cat.categoryId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="categories.length === 0" class="text-muted">No categories available.</div>
+</div>

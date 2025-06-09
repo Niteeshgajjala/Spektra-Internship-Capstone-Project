@@ -1,0 +1,84 @@
+.container-fluid {
+  background-color: #f9f9fb;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+/* Section Title */
+h3.text-primary {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/* Form Styling */
+form {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 12px;
+}
+
+form .form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+input.form-control {
+  border-radius: 8px;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Add/Update Button */
+button.btn-success,
+button.btn-warning {
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 8px;
+}
+
+button.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+/* Budget Cards */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.015);
+}
+
+.card-title {
+  font-weight: 700;
+  color: #198754;
+}
+
+.card-footer button {
+  font-size: 0.85rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+}
+
+/* Empty State */
+.alert-warning {
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  form .col-md-2,
+  form .col-md-4 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

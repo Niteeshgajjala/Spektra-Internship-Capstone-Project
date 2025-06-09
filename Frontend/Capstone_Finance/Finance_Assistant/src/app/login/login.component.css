@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+  height: 100%;
+  background: linear-gradient(to right, #dbeafe, #e0e7ff);
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-container {
+  position: relative;
+  display: flex;
+  width: 850px;
+  height: 520px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Curved Blue Panel */
+.login-left {
+  position: relative;
+  width: 50%;
+  color: white;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.login-left::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: -50%;
+  width: 200%;
+  height: 100%;
+  background: #7494ec;
+  border-radius: 0 150px 150px 0;
+  z-index: -1;
+}
+
+
+
+.login-left h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.login-left p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: #7494ec;
+}
+
+.login-right {
+  width: 50%;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-right h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 12px 50px 12px 15px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+  outline: none;
+}
+
+.input-box i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #555;
+}
+
+.forgot-link {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.forgot-link a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  height: 44px;
+  background: #7494ec;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #5a7bdd;
+}
+
+.text-danger {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.social-label {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  font-size: 22px;
+  color: #333;
+  margin: 0 8px;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  background: #eee;
+  border-color: #888;
+}

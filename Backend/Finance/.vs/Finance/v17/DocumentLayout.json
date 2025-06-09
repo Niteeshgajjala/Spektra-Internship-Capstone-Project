@@ -1,0 +1,629 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\controllers\\budgetpoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\controllers\\budgetpoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\controllers\\budgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\controllers\\budgetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\controllers\\expensecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\controllers\\contributioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\controllers\\contributioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\budget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\financedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\financedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\categoryexpensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\categoryexpensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\expensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\expensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\totalexpensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\totalexpensedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\contributionusagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\contributionusagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\contributiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\contributiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\budgetpooldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\budgetpooldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\budgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\budgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\budgetpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\budgetpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\services\\userjwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\services\\userjwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\dtos\\authrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\dtos\\authrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\jwtcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\jwtcredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\aiinsight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\aiinsight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\fraudalert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\fraudalert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\models\\contribution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\models\\contribution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nitee\\source\\repos\\Finance\\Finance\\Migrations\\20250522101524_init_finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|c:\\users\\nitee\\downloads\\internship-capstone\\backend\\finance\\finance\\migrations\\20250522102346_finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74700969-A439-42AC-B008-901530393DB3}|Finance\\Finance.csproj|solutionrelative:finance\\migrations\\20250522102346_finance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\RemainingBudgetDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Finance\\DTOs\\RemainingBudgetDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\PoolContributionSummaryDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Finance\\DTOs\\PoolContributionSummaryDTO.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Finance\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Finance\\Controllers\\UserController.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAIwEgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:16:08.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BudgetPoolController.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\BudgetPoolController.cs",
+              "RelativeDocumentMoniker": "Finance\\Controllers\\BudgetPoolController.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\BudgetPoolController.cs",
+              "RelativeToolTip": "Finance\\Controllers\\BudgetPoolController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAIwGcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T08:41:35.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BudgetsController.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\BudgetsController.cs",
+              "RelativeDocumentMoniker": "Finance\\Controllers\\BudgetsController.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\BudgetsController.cs",
+              "RelativeToolTip": "Finance\\Controllers\\BudgetsController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAMwIkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:24:53.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContributionController.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\ContributionController.cs",
+              "RelativeDocumentMoniker": "Finance\\Controllers\\ContributionController.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\ContributionController.cs",
+              "RelativeToolTip": "Finance\\Controllers\\ContributionController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:46:04.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpenseController.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\ExpenseController.cs",
+              "RelativeDocumentMoniker": "Finance\\Controllers\\ExpenseController.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\ExpenseController.cs",
+              "RelativeToolTip": "Finance\\Controllers\\ExpenseController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAnwIYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:04:00.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PoolContributionSummaryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\PoolContributionSummaryDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\PoolContributionSummaryDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\PoolContributionSummaryDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\PoolContributionSummaryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:53:39.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\User.cs",
+              "RelativeToolTip": "Finance\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:57:53.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Budget.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Budget.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\Budget.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Budget.cs",
+              "RelativeToolTip": "Finance\\Models\\Budget.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:00:14.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Finance\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Finance\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:12:31.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Program.cs",
+              "RelativeDocumentMoniker": "Finance\\Program.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Program.cs",
+              "RelativeToolTip": "Finance\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T04:59:03.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FinanceDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\FinanceDbContext.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\FinanceDbContext.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\FinanceDbContext.cs",
+              "RelativeToolTip": "Finance\\Models\\FinanceDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:09:34.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ContributionUsageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ContributionUsageDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\ContributionUsageDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ContributionUsageDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\ContributionUsageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:50:46.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "Finance\\DTOs\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T10:44:25.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RemainingBudgetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\RemainingBudgetDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\RemainingBudgetDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\RemainingBudgetDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\RemainingBudgetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T07:11:40.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExpenseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ExpenseDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\ExpenseDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ExpenseDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\ExpenseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:07:56.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryExpenseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\CategoryExpenseDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\CategoryExpenseDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\CategoryExpenseDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\CategoryExpenseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:16:17.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TotalExpenseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\TotalExpenseDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\TotalExpenseDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\TotalExpenseDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\TotalExpenseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:08:54.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T12:53:52.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:23:23.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ContributionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ContributionDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\ContributionDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\ContributionDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\ContributionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:07:21.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\CategoryDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:05:51.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BudgetPoolDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\BudgetPoolDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\BudgetPoolDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\BudgetPoolDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\BudgetPoolDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:06:50.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BudgetDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\BudgetDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\BudgetDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\BudgetDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\BudgetDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T11:06:24.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BudgetPool.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\BudgetPool.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\BudgetPool.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\BudgetPool.cs",
+              "RelativeToolTip": "Finance\\Models\\BudgetPool.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:01:25.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserJWTToken.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Services\\UserJWTToken.cs",
+              "RelativeDocumentMoniker": "Finance\\Services\\UserJWTToken.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Services\\UserJWTToken.cs",
+              "RelativeToolTip": "Finance\\Services\\UserJWTToken.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwBsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:16:44.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\AuthResponseDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\AuthResponseDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\AuthResponseDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\AuthResponseDTO.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T04:46:04.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\AuthRequestDTO.cs",
+              "RelativeDocumentMoniker": "Finance\\DTOs\\AuthRequestDTO.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\DTOs\\AuthRequestDTO.cs",
+              "RelativeToolTip": "Finance\\DTOs\\AuthRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:12:53.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "jwtcredentials.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\jwtcredentials.cs",
+              "RelativeDocumentMoniker": "Finance\\jwtcredentials.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\jwtcredentials.cs",
+              "RelativeToolTip": "Finance\\jwtcredentials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T17:44:11.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Category.cs",
+              "RelativeToolTip": "Finance\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T06:59:02.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\appsettings.json",
+              "RelativeDocumentMoniker": "Finance\\appsettings.json",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\appsettings.json",
+              "RelativeToolTip": "Finance\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T04:57:20.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AIInsight.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\AIInsight.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\AIInsight.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\AIInsight.cs",
+              "RelativeToolTip": "Finance\\Models\\AIInsight.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:09:51.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Notification.cs",
+              "RelativeToolTip": "Finance\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:07:07.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Contribution.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Contribution.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\Contribution.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Contribution.cs",
+              "RelativeToolTip": "Finance\\Models\\Contribution.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:02:24.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FraudAlert.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\FraudAlert.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\FraudAlert.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\FraudAlert.cs",
+              "RelativeToolTip": "Finance\\Models\\FraudAlert.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:08:52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Expense.cs",
+              "RelativeDocumentMoniker": "Finance\\Models\\Expense.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Models\\Expense.cs",
+              "RelativeToolTip": "Finance\\Models\\Expense.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:03:17.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Finance\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Finance\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAABBwBIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T05:12:33.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250522102346_finance.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Migrations\\20250522102346_finance.cs",
+              "RelativeDocumentMoniker": "Finance\\Migrations\\20250522102346_finance.cs",
+              "ToolTip": "C:\\Users\\nitee\\Downloads\\Internship-Capstone\\Backend\\Finance\\Finance\\Migrations\\20250522102346_finance.cs",
+              "RelativeToolTip": "Finance\\Migrations\\20250522102346_finance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:23:47.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250522101524_init_finance.cs",
+              "DocumentMoniker": "C:\\Users\\nitee\\source\\repos\\Finance\\Finance\\Migrations\\20250522101524_init_finance.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\source\\repos\\Finance\\Finance\\Migrations\\20250522101524_init_finance.cs",
+              "ToolTip": "C:\\Users\\nitee\\source\\repos\\Finance\\Finance\\Migrations\\20250522101524_init_finance.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\source\\repos\\Finance\\Finance\\Migrations\\20250522101524_init_finance.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T10:15:24.632Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

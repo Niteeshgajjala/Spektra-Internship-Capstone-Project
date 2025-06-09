@@ -1,0 +1,41 @@
+<div class="container mt-4">
+  <h2 class="text-center mb-4">All Budget Pools</h2>
+
+  <!-- Search Filter -->
+  <div class="input-group mb-4">
+    <input type="text" class="form-control" placeholder="Search by pool name or owner..." [(ngModel)]="searchTerm">
+    <div class="input-group-append">
+      <button class="btn btn-outline-secondary" type="button" (click)="clearSearch()">Clear</button>
+    </div>
+  </div>
+
+  <!-- Pools Table -->
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>Name</th>
+          <th>Owner</th>
+          <th>Total Budget</th>
+          <th>Total Spent</th>
+          <th>Remaining</th>
+          <th>Contributors</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let pool of filteredPools()">
+          <td>{{ pool.name }}</td>
+          <td>{{ pool.owner }}</td>
+          <td>₹ {{ pool.totalBudget | number }}</td>
+          <td>₹ {{ pool.totalSpent | number }}</td>
+          <td>₹ {{ pool.remaining | number }}</td>
+          <td>
+            <ul class="list-unstyled mb-0">
+              <li *ngFor="let c of pool.contributors">{{ c.name }} - ₹{{ c.amount }}</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

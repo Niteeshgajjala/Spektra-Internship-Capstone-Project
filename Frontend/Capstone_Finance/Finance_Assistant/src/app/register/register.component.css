@@ -1,0 +1,128 @@
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #dbeafe, #e0e7ff);
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-container {
+  display: flex;
+  width: 850px;
+  height: 520px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+/* Left Info */
+.register-left {
+  width: 50%;
+  background: #7494ec;
+  color: white;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-left h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.register-left p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  background: white;
+  color: #7494ec;
+}
+
+/* Right Form */
+.register-right {
+  width: 50%;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.register-right h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-box input,
+.input-box select {
+  width: 100%;
+  padding: 12px 50px 12px 15px;
+  background: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  color: #333;
+  font-weight: 500;
+  outline: none;
+}
+
+.input-box select {
+  padding-right: 15px;
+}
+
+.input-box i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #555;
+}
+
+.btn {
+  width: 100%;
+  height: 44px;
+  background: #7494ec;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background: #5a7bdd;
+}
+
+.text-danger {
+  color: #e74c3c;
+  font-size: 13px;
+  margin-top: 4px;
+}

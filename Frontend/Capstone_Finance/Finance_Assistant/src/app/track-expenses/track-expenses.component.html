@@ -1,0 +1,73 @@
+<!-- track-expenses.component.html -->
+<div class="container py-5">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h3 class="text-primary fw-bold">Expense Tracker</h3>
+    <button class="btn btn-outline-primary" (click)="resetForm()">
+      <i class="bi bi-arrow-clockwise"></i> Refresh
+    </button>
+  </div>
+
+  <!-- Add Expense Form -->
+  <form (ngSubmit)="addExpense()" #expenseForm="ngForm" class="mb-4 p-4 bg-white shadow rounded border">
+    <div class="row g-3 align-items-end">
+      <div class="col-md-3">
+        <label class="form-label">Description</label>
+        <input type="text" class="form-control" [(ngModel)]="newExpense.description" name="description" required>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Amount</label>
+        <input type="number" class="form-control" [(ngModel)]="newExpense.amount" name="amount" required>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Category ID</label>
+        <input type="number" class="form-control" [(ngModel)]="newExpense.categoryId" name="categoryId" required>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Pool ID</label>
+        <input type="number" class="form-control" [(ngModel)]="newExpense.poolId" name="poolId" required>
+      </div>
+      <div class="col-md-2">
+        <label class="form-label">Date</label>
+        <input type="date" class="form-control" [(ngModel)]="newExpense.date" name="date" required>
+      </div>
+      <div class="col-md-1">
+        <button type="submit" class="btn btn-success w-100">Add</button>
+      </div>
+    </div>
+  </form>
+
+  <div *ngIf="expenses.length === 0" class="alert alert-warning text-center shadow-sm">
+    <i class="bi bi-exclamation-circle me-2"></i> No expenses recorded.
+  </div>
+
+  <div *ngIf="expenses.length > 0" class="table-responsive shadow-sm">
+    <table class="table table-striped">
+      <thead class="table-light">
+        <tr>
+          <th>#</th>
+          <th>Description</th>
+          <th>Amount</th>
+          <th>Category</th>
+          <th>Pool</th>
+          <th>Date</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let expense of expenses; let i = index">
+          <td>{{ i + 1 }}</td>
+          <td>{{ expense.description }}</td>
+          <td>₹{{ expense.amount | number:'1.0-0' }}</td>
+          <td>{{ expense.categoryId }}</td>
+          <td>{{ expense.poolId }}</td>
+          <td>{{ expense.date | date:'mediumDate' }}</td>
+          <td>
+            <button class="btn btn-sm btn-outline-danger" (click)="deleteExpense(expense.expenseId)">
+              <i class="bi bi-trash"></i> Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

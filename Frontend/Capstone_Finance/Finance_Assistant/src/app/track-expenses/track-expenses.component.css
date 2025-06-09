@@ -1,0 +1,86 @@
+.container {
+  background-color: #f9f9fb;
+  border-radius: 12px;
+}
+
+/* Section Header */
+h3.text-primary {
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+/* Form Styling */
+form {
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #333;
+}
+
+input.form-control {
+  border-radius: 8px;
+  font-size: 0.95rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Add Button */
+button.btn-success {
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 8px;
+}
+
+/* Refresh Button */
+button.btn-outline-primary {
+  font-weight: 500;
+}
+
+/* Expense Table */
+.table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th {
+  font-weight: 600;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* No Data Alert */
+.alert-warning {
+  border-radius: 10px;
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  font-weight: 500;
+}
+
+/* Delete Button */
+button.btn-outline-danger {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  border-radius: 6px;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .row.g-3 > .col-md-1,
+  .row.g-3 > .col-md-2,
+  .row.g-3 > .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

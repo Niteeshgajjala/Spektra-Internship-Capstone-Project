@@ -1,0 +1,51 @@
+<div class="container py-4">
+  <h3 class="text-primary mb-4">Manage Users</h3>
+
+  <div class="mb-3">
+    <input type="text" class="form-control" placeholder="Search by name, email or role" [(ngModel)]="searchTerm">
+  </div>
+
+  <form [formGroup]="userForm" (ngSubmit)="saveUser()" class="row g-3 mb-4">
+    <div class="col-md-4">
+      <input type="text" formControlName="name" placeholder="Name" class="form-control" />
+    </div>
+    <div class="col-md-4">
+      <input type="email" formControlName="email" placeholder="Email" class="form-control" />
+    </div>
+    <div class="col-md-3">
+      <input type="text" formControlName="role" placeholder="Role" class="form-control" />
+    </div>
+    <div class="col-md-1 d-grid">
+      <button class="btn btn-success" type="submit">
+        {{ editingUserId ? 'Update' : 'Add' }}
+      </button>
+    </div>
+    <div class="col-md-12" *ngIf="editingUserId">
+      <button class="btn btn-secondary" type="button" (click)="cancelEdit()">Cancel Edit</button>
+    </div>
+  </form>
+
+  <table class="table table-bordered table-striped">
+    <thead class="table-dark">
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of filteredUsers(); let i = index">
+        <td>{{ i + 1 }}</td>
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.role }}</td>
+        <td>
+          <button class="btn btn-sm btn-primary me-2" (click)="editUser(user)">Edit</button>
+          <button class="btn btn-sm btn-danger" (click)="deleteUser(user.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
